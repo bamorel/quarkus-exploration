@@ -1,10 +1,11 @@
 package fr.basmo;
-
+/*
 import io.lettuce.core.RedisClient;
 import io.lettuce.core.api.StatefulRedisConnection;
+*/
 
 public class RedisBackedCache {
-
+/*
     private final StatefulRedisConnection<String, String> connection;
 
     public RedisBackedCache(String hostname, Integer port) {
@@ -18,5 +19,5 @@ public class RedisBackedCache {
 
     public void put(String key, String value) {
         connection.sync().set(key, value);
-    }
+  }*/
 }

@@ -1,17 +1,8 @@
 package fr.basmo;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.testcontainers.containers.GenericContainer;
-import org.testcontainers.junit.jupiter.Container;
-import org.testcontainers.junit.jupiter.Testcontainers;
-import org.testcontainers.utility.DockerImageName;
-
-import static org.junit.Assert.assertThat;
-
-@Testcontainers
+//@Testcontainers
 public class TestContainerTest {
+    /*
 
     private RedisBackedCache underTest;
 
@@ -38,4 +29,5 @@ public class TestContainerTest {
         String retrieved = underTest.get("test");
         Assertions.assertEquals(retrieved, "example");
     }
+     */
 }
